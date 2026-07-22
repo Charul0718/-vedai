@@ -28,7 +28,7 @@ for pkg_dir in [ASTROLOGY_ENGINE_DIR, AI_ENGINE_DIR, REPORT_ENGINE_DIR, KNOWLEDG
     if pkg_dir not in sys.path:
         sys.path.insert(0, pkg_dir)
 
-from astrology_engine.calculations import calculate_vedic_chart
+from astrology_engine.calculations import calculate_birth_chart
 from ai_engine.client import AIEngineClient
 from report_engine.generator import ReportGenerator, compile_traditional_readings
 from explainability_engine import ExplainabilityEngine
@@ -63,23 +63,14 @@ class AstrologyService:
         if chart:
             return chart
             
-        # Parse timezone offset (approximate from timezone string or keep static +5.5 for simplicity)
-        # We can extract offset based on commonly used timezones or pass it
-        # E.g. Asia/Kolkata is +5.5. Let's write a simple timezone offset mapper
-        tz_offset = 5.5
-        if "america" in details.timezone.lower():
-            tz_offset = -5.0 # EST
-        elif "europe" in details.timezone.lower():
-            tz_offset = 1.0 # CET
-            
         # Trigger deterministic astrology engine calculations
-        calc_result = calculate_vedic_chart(
+        calc_result = calculate_birth_chart(
             name=details.name,
-            dob=details.date_of_birth,
-            tob=details.time_of_birth,
-            lat=details.latitude,
-            lon=details.longitude,
-            tz_offset=tz_offset
+            birth_date=details.date_of_birth,
+            birth_time=details.time_of_birth,
+            latitude=details.latitude,
+            longitude=details.longitude,
+            timezone=details.timezone
         )
         
         # Save BirthChart

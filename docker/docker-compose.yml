@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: vedai_db
+    restart: always
+    environment:
+      POSTGRES_DB: vedai_db
+      POSTGRES_USER: vedai_admin
+      POSTGRES_PASSWORD: secure_vedai_password_2026
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ../apps/api
+      dockerfile: Dockerfile
+    container_name: vedai_api
+    restart: always
+    environment:
+      DATABASE_URL: postgresql://vedai_admin:secure_vedai_password_2026@db:5432/vedai_db
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      SECRET_KEY: super_secret_vedai_key_for_jwt
+      PDF_OUTPUT_DIR: /app/static/reports
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    volumes:
+      - reports_data:/app/static/reports
+      - ../packages:/app/packages
+
+  web:
+    build:
+      context: ../apps/web
+      dockerfile: Dockerfile
+    container_name: vedai_web
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    depends_on:
+      - api
+
+volumes:
+  pgdata:
+  reports_data:
