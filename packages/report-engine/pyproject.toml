@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "report-engine"
+version = "1.0.0"
+description = "Report compiler and PDF generator for VedAI"
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic",
+    "fpdf2"
+]

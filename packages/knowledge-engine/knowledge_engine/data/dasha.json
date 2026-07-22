@@ -1,0 +1,112 @@
+{
+  "vimshottari_dasha": {
+    "Ketu": {
+      "period_years": 7,
+      "keywords": ["detachment", "spirituality", "past life", "liberation", "mysticism", "isolation", "intuition", "surrender"],
+      "strengths": ["spiritual insight", "intuition", "detachment", "healing ability", "psychic sensitivity", "research skills"],
+      "weaknesses": ["isolation", "confusion", "lack of direction", "self-doubt", "escapism", "instability", "loss"],
+      "career_themes": ["spiritual teaching", "healing", "research", "occult sciences", "astrology", "psychology", "alternative medicine"],
+      "finance_themes": ["inheritance", "unexpected gains", "spiritual work income", "research funding", "occult practices"],
+      "relationship_themes": ["spiritual partnerships", "karmic endings", "detachment", "past life connections", "unconventional bonds"],
+      "health_themes": ["mental health", "spiritual illness", "sudden health issues", "healing", "nervous system", "past life karma"],
+      "spirituality_themes": ["moksha", "spiritual liberation", "past life wisdom", "detachment", "meditation", "divine connection"],
+      "traditional_remedies": ["offering brown items to Ketu", "reciting Ketu mantra", "wearing cat's eye gemstone", "spiritual practices"]
+    },
+    "Venus": {
+      "period_years": 20,
+      "keywords": ["love", "beauty", "art", "relationships", "luxury", "pleasure", "creativity", "harmony"],
+      "strengths": ["artistic talent", "charm", "diplomacy", "romantic nature", "appreciation of beauty", "social grace"],
+      "weaknesses": ["sensuality", "laziness", "overindulgence in pleasure", "vanity", "materialism", "emotional dependency"],
+      "career_themes": ["arts", "entertainment", "fashion", "beauty industry", "hospitality", "luxury goods", "creative fields"],
+      "finance_themes": ["luxury", "jewelry", "cosmetics", "entertainment", "art", "fashion", "comfortable lifestyle"],
+      "relationship_themes": ["romance", "marriage", "sensuality", "harmony", "partnerships", "attraction", "social connections"],
+      "health_themes": ["reproductive system", "kidneys", "throat", "skin", "hormonal balance", "sexual health"],
+      "spirituality_themes": ["divine love", "devotion", "beauty in spirituality", "artistic expression of faith", "bhakti yoga"],
+      "traditional_remedies": ["offering white flowers to Venus", "reciting Shukra mantra", "wearing diamond gemstone", "fasting on Fridays"]
+    },
+    "Sun": {
+      "period_years": 6,
+      "keywords": ["soul", "father", "authority", "vitality", "ego", "self", "leadership", "creativity"],
+      "strengths": ["leadership", "confidence", "ambition", "generosity", "warmth", "courage"],
+      "weaknesses": ["arrogance", "stubbornness", "dominance", "ego", "impatience"],
+      "career_themes": ["leadership roles", "government", "politics", "management", "entrepreneurship", "public service"],
+      "finance_themes": ["speculation", "gold", "government funds", "inheritance", "wealth accumulation"],
+      "relationship_themes": ["paternal relationships", "authority figures", "dominance in partnerships", "need for recognition"],
+      "health_themes": ["heart", "eyes", "spine", "vitality", "blood pressure", "fevers"],
+      "spirituality_themes": ["self-realization", "divine connection", "inner light", "spiritual authority"],
+      "traditional_remedies": ["offering water to Sun", "reciting Gayatri mantra", "wearing ruby gemstone", "fasting on Sundays"]
+    },
+    "Moon": {
+      "period_years": 10,
+      "keywords": ["mind", "mother", "emotions", "intuition", "nurturing", "subconscious", "memory", "feelings"],
+      "strengths": ["emotional intelligence", "intuition", "nurturing", "adaptability", "imagination", "compassion"],
+      "weaknesses": ["moodiness", "emotional instability", "over-sensitivity", "indecision", "attachment"],
+      "career_themes": ["nursing", "counseling", "hospitality", "marine industry", "public relations", "psychology"],
+      "finance_themes": ["liquid assets", "family wealth", "real estate", "agriculture", "daily income"],
+      "relationship_themes": ["maternal bonds", "emotional intimacy", "family life", "domestic harmony", "nurturing relationships"],
+      "health_themes": ["mind", "emotions", "breasts", "stomach", "fluids", "menstrual cycle", "sleep"],
+      "spirituality_themes": ["emotional healing", "intuitive wisdom", "lunar cycles", "inner peace", "psychic sensitivity"],
+      "traditional_remedies": ["offering milk to Shiva", "reciting Chandra mantra", "wearing pearl gemstone", "fasting on Mondays"]
+    },
+    "Mars": {
+      "period_years": 7,
+      "keywords": ["energy", "action", "courage", "assertion", "conflict", "drive", "passion", "physical strength"],
+      "strengths": ["courage", "determination", "initiative", "physical strength", "leadership in crisis", "competitive spirit"],
+      "weaknesses": ["aggression", "impulsiveness", "anger", "impatience", "recklessness", "conflict"],
+      "career_themes": ["military", "police", "sports", "engineering", "surgery", "firefighting", "manufacturing"],
+      "finance_themes": ["property", "land", "machinery", "weapons", "competitive business", "sudden gains"],
+      "relationship_themes": ["passion", "conflict", "assertiveness", "sexual energy", "dominance", "loyalty"],
+      "health_themes": ["muscles", "blood", "accidents", "inflammation", "fevers", "surgery", "head"],
+      "spirituality_themes": ["spiritual warrior", "overcoming obstacles", "kundalini energy", "willpower", "discipline"],
+      "traditional_remedies": ["offering red flowers to Hanuman", "reciting Mangal mantra", "wearing red coral gemstone", "fasting on Tuesdays"]
+    },
+    "Rahu": {
+      "period_years": 18,
+      "keywords": ["obsession", "materialism", "innovation", "foreign", "technology", "disruption", "illusion", "desire"],
+      "strengths": ["innovation", "technical skills", "originality", "ambition", "adaptability to foreign cultures", "breaking conventions"],
+      "weaknesses": ["addiction", "confusion", "anxiety", "materialism", "deception", "obsessive behavior", "instability"],
+      "career_themes": ["technology", "aviation", "software", "research", "foreign trade", "media", "innovative fields", "occult sciences"],
+      "finance_themes": ["speculation", "lottery", "foreign income", "sudden wealth", "unconventional sources", "technology investments"],
+      "relationship_themes": ["unconventional relationships", "foreign partners", "intensity", "obsession", "karmic connections", "transformation"],
+      "health_themes": ["mental health", "addiction", "nervous disorders", "poisoning", "unexpected illness", "psychological issues"],
+      "spirituality_themes": ["occult knowledge", "spiritual transformation", "breaking illusions", "kundalini awakening", "mysticism"],
+      "traditional_remedies": ["offering blue items to Rahu", "reciting Rahu mantra", "wearing hessonite gemstone", "donating to charity"]
+    },
+    "Jupiter": {
+      "period_years": 16,
+      "keywords": ["wisdom", "expansion", "fortune", "teacher", "spirituality", "abundance", "optimism", "higher knowledge"],
+      "strengths": ["wisdom", "generosity", "optimism", "teaching ability", "spiritual inclination", "moral character"],
+      "weaknesses": ["overindulgence", "extravagance", "dogmatism", "laziness", "overconfidence", "impracticality"],
+      "career_themes": ["teaching", "priesthood", "law", "banking", "consulting", "philosophy", "higher education", "publishing"],
+      "finance_themes": ["wealth", "banking", "insurance", "inheritance", "gold", "long-term investments", "prosperity"],
+      "relationship_themes": ["marriage", "children", "spiritual partnerships", "benevolence", "guidance", "expansion in relationships"],
+      "health_themes": ["liver", "pancreas", "digestion", "obesity", "diabetes", "growth", "healing"],
+      "spirituality_themes": ["spiritual teacher", "divine grace", "higher knowledge", "religious wisdom", "dharma", "enlightenment"],
+      "traditional_remedies": ["offering yellow flowers to Jupiter", "reciting Guru mantra", "wearing yellow sapphire gemstone", "fasting on Thursdays"]
+    },
+    "Saturn": {
+      "period_years": 19,
+      "keywords": ["discipline", "hardship", "delay", "karma", "responsibility", "structure", "limitations", "endurance"],
+      "strengths": ["discipline", "perseverance", "hard work", "responsibility", "patience", "organizational ability", "long-term planning"],
+      "weaknesses": ["pessimism", "depression", "rigidity", "fear", "isolation", "harshness", "delayed results"],
+      "career_themes": ["labor", "mining", "construction", "agriculture", "real estate", "administration", "justice", "social work"],
+      "finance_themes": ["real estate", "land", "minerals", "labor income", "slow accumulation", "old age wealth", "inheritance"],
+      "relationship_themes": ["delayed marriage", "serious relationships", "karmic bonds", "responsibility in family", "endurance in partnerships"],
+      "health_themes": ["bones", "teeth", "knees", "skin", "nervous system", "chronic illness", "aging"],
+      "spirituality_themes": ["karma yoga", "detachment", "spiritual discipline", "meditation", "renunciation", "liberation"],
+      "traditional_remedies": ["offering black items to Saturn", "reciting Shani mantra", "wearing blue sapphire gemstone", "fasting on Saturdays"]
+    },
+    "Mercury": {
+      "period_years": 17,
+      "keywords": ["intellect", "communication", "logic", "learning", "trade", "youth", "adaptability", "analysis"],
+      "strengths": ["intelligence", "communication skills", "adaptability", "quick learning", "analytical thinking", "wit"],
+      "weaknesses": ["inconsistency", "superficiality", "nervousness", "overthinking", "manipulation", "indecision"],
+      "career_themes": ["teaching", "writing", "journalism", "sales", "accounting", "IT", "consulting", "trading"],
+      "finance_themes": ["trading", "banking", "communication business", "short-term investments", "speculation", "multiple income sources"],
+      "relationship_themes": ["intellectual connection", "communication", "youthful relationships", "adaptability", "mental stimulation"],
+      "health_themes": ["nervous system", "speech", "lungs", "hands", "skin", "thyroid", "mental health"],
+      "spirituality_themes": ["intellectual wisdom", "mantra", "communication with divine", "analytical spirituality", "learning scriptures"],
+      "traditional_remedies": ["offering green items to Mercury", "reciting Budh mantra", "wearing emerald gemstone", "fasting on Wednesdays"]
+    }
+  }
+}

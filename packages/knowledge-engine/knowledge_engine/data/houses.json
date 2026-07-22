@@ -1,0 +1,136 @@
+{
+  "houses": {
+    "1": {
+      "keywords": ["self", "personality", "appearance", "health", "beginnings", "identity", "physical body"],
+      "strengths": ["self-confidence", "vitality", "personal initiative", "leadership", "self-expression"],
+      "weaknesses": ["self-centeredness", "ego issues", "health problems", "impulsiveness", "self-doubt"],
+      "career_themes": ["self-employment", "leadership roles", "personal brand", "entrepreneurship", "public appearance"],
+      "finance_themes": ["personal income", "self-earned wealth", "financial independence", "personal resources"],
+      "relationship_themes": ["self-image in relationships", "personal approach to partnerships", "first impressions"],
+      "health_themes": ["physical constitution", "head", "face", "vitality", "overall health", "birth defects"],
+      "spirituality_themes": ["self-realization", "personal spiritual path", "individual dharma", "inner self"],
+      "traditional_remedies": ["self-discipline", "meditation", "physical exercise", "personal spiritual practices"]
+    },
+    "2": {
+      "keywords": ["wealth", "family", "speech", "accumulated resources", "values", "possessions", "food"],
+      "strengths": ["financial stability", "family support", "communication skills", "resource accumulation", "value system"],
+      "weaknesses": ["attachment to possessions", "family conflicts", "speech issues", "financial dependency", "greed"],
+      "career_themes": ["banking", "finance", "family business", "communication", "teaching", "food industry"],
+      "finance_themes": ["accumulated wealth", "family assets", "savings", "investments", "inheritance", "liquid assets"],
+      "relationship_themes": ["family bonds", "close relationships", "communication in partnerships", "shared values"],
+      "health_themes": ["face", "mouth", "throat", "teeth", "speech", "eating habits", "right eye"],
+      "spirituality_themes": ["family traditions", "value-based spirituality", "devotional practices", "ancestral wisdom"],
+      "traditional_remedies": ["respecting elders", "charity", "truthful speech", "family rituals", "feeding the needy"]
+    },
+    "3": {
+      "keywords": ["communication", "siblings", "courage", "effort", "writing", "skills", "short travel", "neighbors"],
+      "strengths": ["communication ability", "courage", "initiative", "learning skills", "adaptability", "writing talent"],
+      "weaknesses": ["restlessness", "impulsiveness", "lack of focus", "conflicts with siblings", "overexertion"],
+      "career_themes": ["communication", "media", "writing", "teaching", "sales", "marketing", "IT", "transportation"],
+      "finance_themes": ["short-term investments", "communication business", "trading", "siblings' support", "effort-based income"],
+      "relationship_themes": ["siblings", "neighbors", "friends", "communication in relationships", "short-term partnerships"],
+      "health_themes": ["arms", "shoulders", "lungs", "nervous system", "breathing", "courage", "mental agility"],
+      "spirituality_themes": ["communication with divine", "mantra chanting", "spiritual learning", "courage in spiritual path"],
+      "traditional_remedies": ["helping siblings", "mantra practice", "short pilgrimages", "respecting neighbors"]
+    },
+    "4": {
+      "keywords": ["home", "mother", "property", "vehicles", "emotions", "comfort", "roots", "domestic life"],
+      "strengths": ["emotional security", "property ownership", "mother's blessings", "domestic happiness", "comfort"],
+      "weaknesses": ["emotional dependency", "property disputes", "mother's health issues", "laziness", "attachment to home"],
+      "career_themes": ["real estate", "agriculture", "home-based business", "interior design", "hospitality", "family business"],
+      "finance_themes": ["property", "real estate", "vehicles", "home assets", "mother's wealth", "land"],
+      "relationship_themes": ["mother", "family life", "emotional bonds", "domestic harmony", "home environment"],
+      "health_themes": ["chest", "breasts", "lungs", "heart", "emotional health", "stomach", "diaphragm"],
+      "spirituality_themes": ["home shrine", "domestic worship", "emotional spirituality", "ancestral connection", "inner peace"],
+      "traditional_remedies": ["respecting mother", "maintaining home shrine", "charity to mother figures", "property rituals"]
+    },
+    "5": {
+      "keywords": ["children", "creativity", "romance", "speculation", "education", "intelligence", "pleasure", "sports"],
+      "strengths": ["creativity", "intelligence", "romantic nature", "teaching ability", "speculative success", "artistic talent"],
+      "weaknesses": ["overindulgence in pleasure", "romantic disappointments", "children's issues", "gambling", "lack of discipline"],
+      "career_themes": ["entertainment", "arts", "teaching", "speculation", "sports", "creative fields", "education"],
+      "finance_themes": ["speculation", "lottery", "entertainment industry", "children's support", "creative income"],
+      "relationship_themes": ["romance", "love affairs", "children", "creative partnerships", "pleasurable relationships"],
+      "health_themes": ["heart", "back", "spine", "reproductive system", "creativity", "intelligence", "stomach"],
+      "spirituality_themes": ["creative spirituality", "devotional love", "spiritual children", "mantra practice", "divine play"],
+      "traditional_remedies": ["respecting teachers", "helping children", "creative spiritual practices", "avoiding gambling"]
+    },
+    "6": {
+      "keywords": ["enemies", "disease", "debt", "service", "competition", "health", "routine work", "obstacles"],
+      "strengths": ["service orientation", "problem-solving", "discipline", "health awareness", "competitive spirit", "hard work"],
+      "weaknesses": ["health issues", "debt", "enemies", "service to others", "routine work", "obstacles"],
+      "career_themes": ["service industry", "healthcare", "legal profession", "competition", "routine work", "problem-solving"],
+      "finance_themes": ["debts", "loans", "service income", "medical expenses", "litigation costs", "competitive earnings"],
+      "relationship_themes": ["conflicts", "service to partners", "competitive relationships", "enemies", "work relationships"],
+      "health_themes": ["digestive system", "intestines", "kidneys", "illness", "surgery", "accidents", "chronic disease"],
+      "spirituality_themes": ["service to humanity", "spiritual healing", "overcoming obstacles", "karmic service", "discipline"],
+      "traditional_remedies": ["service to others", "charity", "health practices", "mantra for enemies", "debt management"]
+    },
+    "7": {
+      "keywords": ["partnership", "marriage", "spouse", "business", "foreign travel", "trade", "relationships", "public"],
+      "strengths": ["partnership ability", "diplomacy", "business acumen", "social skills", "marriage", "foreign connections"],
+      "weaknesses": ["relationship conflicts", "business losses", "marital discord", "dependency on partners", "foreign troubles"],
+      "career_themes": ["partnership business", "consulting", "diplomacy", "trade", "foreign business", "public relations"],
+      "finance_themes": ["partnership income", "spouse's wealth", "trade", "foreign income", "business profits", "joint assets"],
+      "relationship_themes": ["marriage", "business partners", "spouse", "public relationships", "foreign connections"],
+      "health_themes": ["reproductive organs", "kidneys", "lower back", "sexual health", "marital health", "urinary system"],
+      "spirituality_themes": ["partnership in spirituality", "divine union", "spiritual relationships", "dharma in relationships"],
+      "traditional_remedies": ["respecting spouse", "business ethics", "marriage rituals", "charity to partners"]
+    },
+    "8": {
+      "keywords": ["death", "transformation", "inheritance", "occult", "longevity", "mysteries", "other people's money", "research"],
+      "strengths": ["research ability", "occult knowledge", "transformation", "inheritance", "psychological insight", "longevity"],
+      "weaknesses": ["obsession with death", "inheritance disputes", "occult dangers", "psychological issues", "sudden changes"],
+      "career_themes": ["research", "occult sciences", "psychology", "insurance", "inheritance management", "mystical fields"],
+      "finance_themes": ["inheritance", "insurance", "spouse's assets", "occult income", "research funding", "sudden gains"],
+      "relationship_themes": ["intimacy", "shared resources", "psychological bonds", "transformative relationships", "occult connections"],
+      "health_themes": ["longevity", "death", "reproductive organs", "chronic illness", "psychological health", "surgery"],
+      "spirituality_themes": ["occult knowledge", "spiritual transformation", "kundalini", "mysticism", "past life karma", "liberation"],
+      "traditional_remedies": ["occult protection", "ancestral rituals", "charity for deceased", "spiritual transformation practices"]
+    },
+    "9": {
+      "keywords": ["dharma", "fortune", "father", "higher learning", "religion", "philosophy", "long travel", "luck"],
+      "strengths": ["good fortune", "spiritual wisdom", "philosophical outlook", "higher education", "father's blessings", "religious inclination"],
+      "weaknesses": ["overconfidence", "religious dogmatism", "father's issues", "misfortune", "lack of focus", "extravagance"],
+      "career_themes": ["teaching", "priesthood", "law", "higher education", "philosophy", "religion", "international business"],
+      "finance_themes": ["fortune", "father's wealth", "inheritance", "international income", "religious income", "speculation"],
+      "relationship_themes": ["father", "spiritual teachers", "foreign relationships", "religious communities", "mentors"],
+      "health_themes": ["hips", "thighs", "nervous system", "fortune", "longevity", "spiritual health"],
+      "spirituality_themes": ["dharma", "spiritual teacher", "religious wisdom", "philosophy", "divine grace", "spiritual liberation"],
+      "traditional_remedies": ["respecting father", "spiritual practices", "religious rituals", "charity to religious institutions"]
+    },
+    "10": {
+      "keywords": ["career", "status", "authority", "government", "reputation", "ambition", "public life", "achievement"],
+      "strengths": ["leadership", "authority", "ambition", "public recognition", "career success", "status", "achievement"],
+      "weaknesses": ["authoritarianism", "political troubles", "reputation issues", "career setbacks", "overambition", "stress"],
+      "career_themes": ["government", "politics", "administration", "leadership", "public service", "management", "authority"],
+      "finance_themes": ["government income", "status-based wealth", "career earnings", "public funds", "authority-based income"],
+      "relationship_themes": ["authority figures", "public reputation", "career relationships", "status in society", "government"],
+      "health_themes": ["knees", "bones", "skin", "career stress", "reputation health", "authority-related illness"],
+      "spirituality_themes": ["spiritual authority", "dharma in career", "public service as spirituality", "karma through action"],
+      "traditional_remedies": ["respecting authority", "ethical career practices", "public service", "charity for reputation"]
+    },
+    "11": {
+      "keywords": ["gains", "networks", "elder siblings", "fulfillment", "income", "social circles", "aspirations", "friends"],
+      "strengths": ["social networks", "income from multiple sources", "fulfillment of desires", "elder sibling support", "aspirations"],
+      "weaknesses": ["unrealistic expectations", "social conflicts", "elder sibling issues", "loss of gains", "disappointment"],
+      "career_themes": ["networking", "social organizations", "large-scale business", "fulfillment of goals", "group activities"],
+      "finance_themes": ["gains", "income from networks", "elder sibling support", "speculation", "fulfillment of financial desires"],
+      "relationship_themes": ["friends", "social circles", "elder siblings", "networks", "group relationships", "aspirations"],
+      "health_themes": ["ankles", "calves", "circulatory system", "fulfillment", "social health", "aspirational stress"],
+      "spirituality_themes": ["spiritual networks", "fulfillment through spirituality", "group spiritual practices", "divine friendship"],
+      "traditional_remedies": ["respecting elder siblings", "social service", "networking for good causes", "charity to groups"]
+    },
+    "12": {
+      "keywords": ["loss", "expenditure", "foreign residence", "spirituality", "liberation", "isolation", "hidden enemies", "bed pleasures"],
+      "strengths": ["spiritual inclination", "foreign residence", "liberation", "hidden knowledge", "detachment", "meditation"],
+      "weaknesses": ["excessive expenditure", "losses", "isolation", "hidden enemies", "bed pleasures", "escapism"],
+      "career_themes": ["foreign work", "spiritual teaching", "occult sciences", "research", "isolation-based work", "charitable work"],
+      "finance_themes": ["expenditure", "foreign income", "losses", "charitable spending", "hidden wealth", "bed comforts"],
+      "relationship_themes": ["hidden enemies", "foreign relationships", "spiritual connections", "isolation", "bed relationships"],
+      "health_themes": ["feet", "toes", "sleep", "mental health", "spiritual health", "bed-related issues", "chronic illness"],
+      "spirituality_themes": ["liberation", "spiritual isolation", "meditation", "occult knowledge", "past life karma", "moksha"],
+      "traditional_remedies": ["spiritual practices", "charity", "meditation", "foreign travel for spirituality", "occult protection"]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0A0E1A;
+    --surface: #111827;
+    --surface-hover: #1F2937;
+    --primary: #D4AF37;
+    --primary-light: #F4D03F;
+    --primary-dark: #B8960C;
+    --accent-navy: #1E3A5F;
+    --accent-purple: #4C1D95;
+  }
+
+  body {
+    background-color: var(--background);
+    color: #f3f4f6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  /* Modern Glassmorphism - Apple Health style */
+  .glass-premium {
+    background: rgba(17, 24, 39, 0.7);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.2);
+  }
+
+  .glass-card {
+    background: rgba(17, 24, 39, 0.5);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 2px 12px -1px rgba(0, 0, 0, 0.15);
+  }
+
+  .surface {
+    background: var(--surface);
+  }
+
+  .surface\/50 {
+    background: rgba(17, 24, 39, 0.5);
+  }
+
+  .surface\/30 {
+    background: rgba(17, 24, 39, 0.3);
+  }
+
+  /* Gold Gradient Text */
+  .gold-gradient {
+    background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 50%, #B8960C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Primary Color Utilities */
+  .bg-primary {
+    background-color: var(--primary);
+  }
+
+  .bg-primary\/10 {
+    background-color: rgba(212, 175, 55, 0.1);
+  }
+
+  .bg-primary\/20 {
+    background-color: rgba(212, 175, 55, 0.2);
+  }
+
+  .bg-primary\/5 {
+    background-color: rgba(212, 175, 55, 0.05);
+  }
+
+  .text-primary {
+    color: var(--primary);
+  }
+
+  .border-primary {
+    border-color: var(--primary);
+  }
+
+  .border-primary\/10 {
+    border-color: rgba(212, 175, 55, 0.1);
+  }
+
+  .border-primary\/20 {
+    border-color: rgba(212, 175, 55, 0.2);
+  }
+
+  .border-primary\/30 {
+    border-color: rgba(212, 175, 55, 0.3);
+  }
+
+  .hover\:bg-primary-light:hover {
+    background-color: var(--primary-light);
+  }
+
+  /* Gold Glow Effect */
+  .gold-glow {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.25), 0 0 40px rgba(212, 175, 55, 0.15);
+  }
+
+  /* Smooth Animations */
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.4s ease-out;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 3s ease-in-out infinite;
+  }
+
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes glow {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  /* Custom Scrollbar - Modern style */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(212, 175, 55, 0.3);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(212, 175, 55, 0.5);
+  }
+
+  /* Focus styles */
+  *:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+  }
+
+  /* Selection */
+  ::selection {
+    background: rgba(212, 175, 55, 0.3);
+    color: white;
+  }
+}

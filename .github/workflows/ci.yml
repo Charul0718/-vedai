@@ -1,0 +1,49 @@
+name: VedAI CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  # Check python packages and api backend
+  python-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff
+          pip install -r apps/api/requirements.txt
+
+      - name: Run Ruff Linting
+        run: ruff check apps/api packages/astrology-engine packages/ai-engine packages/report-engine
+
+  # Check typescript packages and Next.js applications
+  typescript-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Monorepo Dependencies
+        run: npm install
+
+      - name: Verify Web compilation
+        run: npm run build:web
+
+      - name: Verify Admin compilation
+        run: npm run build:admin

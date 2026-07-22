@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "astrology-engine"
+version = "1.0.0"
+description = "Deterministic Vedic astrology calculations library"
+requires-python = ">=3.9"
+dependencies = [
+    "pyswisseph>=2.10.0",
+]

@@ -1,0 +1,16 @@
+{
+  "name": "@vedai/ui",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.2",
+    "lucide-react": "^0.446.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
