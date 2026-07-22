@@ -1,0 +1,151 @@
+{
+  "domains": {
+    "career": {
+      "name": "Career",
+      "primaryHouses": [10, 2, 6, 11],
+      "primaryPlanets": ["Sun", "Mercury", "Jupiter", "Saturn"],
+      "secondaryPlanets": ["Mars", "Rahu"],
+      "houseWeights": {
+        "1": 0.8, "2": 0.6, "3": 0.3, "4": 0.3, "5": 0.3,
+        "6": 0.7, "7": 0.3, "8": 0.2, "9": 0.3, "10": 1.0,
+        "11": 0.7, "12": 0.2
+      },
+      "planetWeights": {
+        "Sun": 0.9, "Moon": 0.4, "Mars": 0.7, "Mercury": 0.8,
+        "Jupiter": 0.85, "Venus": 0.5, "Saturn": 0.7, "Rahu": 0.5, "Ketu": 0.3
+      }
+    },
+    "finance": {
+      "name": "Finance",
+      "primaryHouses": [2, 11],
+      "primaryPlanets": ["Jupiter", "Venus", "Mercury"],
+      "secondaryPlanets": ["Sun", "Rahu", "Saturn"],
+      "houseWeights": {
+        "1": 0.3, "2": 1.0, "3": 0.2, "4": 0.3, "5": 0.3,
+        "6": 0.5, "7": 0.4, "8": 0.2, "9": 0.3, "10": 0.7,
+        "11": 0.9, "12": 0.2
+      },
+      "planetWeights": {
+        "Sun": 0.6, "Moon": 0.5, "Mars": 0.4, "Mercury": 0.7,
+        "Jupiter": 0.95, "Venus": 0.85, "Saturn": 0.5, "Rahu": 0.4, "Ketu": 0.3
+      }
+    },
+    "marriage": {
+      "name": "Marriage",
+      "primaryHouses": [7],
+      "primaryPlanets": ["Venus", "Jupiter", "Mars", "Moon"],
+      "secondaryPlanets": ["Rahu", "Saturn", "Ketu"],
+      "houseWeights": {
+        "1": 0.6, "2": 0.6, "3": 0.2, "4": 0.3, "5": 0.3,
+        "6": 0.2, "7": 1.0, "8": 0.2, "9": 0.3, "10": 0.3,
+        "11": 0.3, "12": 0.5
+      },
+      "planetWeights": {
+        "Sun": 0.3, "Moon": 0.6, "Mars": 0.7, "Mercury": 0.4,
+        "Jupiter": 0.8, "Venus": 1.0, "Saturn": 0.5, "Rahu": 0.4, "Ketu": 0.3
+      }
+    },
+    "relationships": {
+      "name": "Relationships",
+      "primaryHouses": [7, 5],
+      "primaryPlanets": ["Venus", "Mercury", "Moon", "Jupiter"],
+      "secondaryPlanets": ["Mars", "Rahu"],
+      "houseWeights": {
+        "1": 0.5, "2": 0.6, "3": 0.5, "4": 0.4, "5": 0.7,
+        "6": 0.2, "7": 0.9, "8": 0.2, "9": 0.3, "10": 0.3,
+        "11": 0.6, "12": 0.2
+      },
+      "planetWeights": {
+        "Sun": 0.3, "Moon": 0.8, "Mars": 0.5, "Mercury": 0.7,
+        "Jupiter": 0.75, "Venus": 1.0, "Saturn": 0.4, "Rahu": 0.3, "Ketu": 0.2
+      }
+    },
+    "children": {
+      "name": "Children",
+      "primaryHouses": [5],
+      "primaryPlanets": ["Jupiter", "Sun", "Moon"],
+      "secondaryPlanets": ["Venus", "Mercury"],
+      "houseWeights": {
+        "1": 0.5, "2": 0.2, "3": 0.2, "4": 0.6, "5": 1.0,
+        "6": 0.2, "7": 0.4, "8": 0.2, "9": 0.7, "10": 0.3,
+        "11": 0.3, "12": 0.2
+      },
+      "planetWeights": {
+        "Sun": 0.7, "Moon": 0.6, "Mars": 0.3, "Mercury": 0.4,
+        "Jupiter": 1.0, "Venus": 0.5, "Saturn": 0.3, "Rahu": 0.2, "Ketu": 0.2
+      }
+    },
+    "health": {
+      "name": "Health",
+      "primaryHouses": [1, 6],
+      "primaryPlanets": ["Mars", "Saturn", "Sun", "Moon"],
+      "secondaryPlanets": ["Rahu", "Ketu"],
+      "houseWeights": {
+        "1": 0.9, "2": 0.3, "3": 0.2, "4": 0.3, "5": 0.2,
+        "6": 0.7, "7": 0.2, "8": 0.8, "9": 0.3, "10": 0.3,
+        "11": 0.2, "12": 0.6
+      },
+      "planetWeights": {
+        "Sun": 0.85, "Moon": 0.75, "Mars": 0.8, "Mercury": 0.3,
+        "Jupiter": 0.6, "Venus": 0.4, "Saturn": 0.7, "Rahu": 0.5, "Ketu": 0.4
+      }
+    },
+    "education": {
+      "name": "Education",
+      "primaryHouses": [4, 9],
+      "primaryPlanets": ["Jupiter", "Mercury", "Sun"],
+      "secondaryPlanets": ["Venus", "Moon"],
+      "houseWeights": {
+        "1": 0.5, "2": 0.6, "3": 0.6, "4": 0.8, "5": 0.7,
+        "6": 0.2, "7": 0.3, "8": 0.2, "9": 1.0, "10": 0.3,
+        "11": 0.3, "12": 0.2
+      },
+      "planetWeights": {
+        "Sun": 0.7, "Moon": 0.4, "Mars": 0.3, "Mercury": 0.9,
+        "Jupiter": 1.0, "Venus": 0.5, "Saturn": 0.3, "Rahu": 0.2, "Ketu": 0.2
+      }
+    },
+    "business": {
+      "name": "Business",
+      "primaryHouses": [7, 10],
+      "primaryPlanets": ["Mercury", "Venus", "Jupiter"],
+      "secondaryPlanets": ["Sun", "Rahu", "Saturn"],
+      "houseWeights": {
+        "1": 0.3, "2": 0.8, "3": 0.2, "4": 0.3, "5": 0.3,
+        "6": 0.3, "7": 0.9, "8": 0.2, "9": 0.3, "10": 0.85,
+        "11": 0.95, "12": 0.2
+      },
+      "planetWeights": {
+        "Sun": 0.6, "Moon": 0.4, "Mars": 0.5, "Mercury": 0.9,
+        "Jupiter": 0.8, "Venus": 0.85, "Saturn": 0.5, "Rahu": 0.5, "Ketu": 0.2
+      }
+    },
+    "spirituality": {
+      "name": "Spirituality",
+      "primaryHouses": [12, 9],
+      "primaryPlanets": ["Jupiter", "Ketu", "Saturn"],
+      "secondaryPlanets": ["Moon", "Rahu"],
+      "houseWeights": {
+        "1": 0.5, "2": 0.2, "3": 0.2, "4": 0.3, "5": 0.4,
+        "6": 0.2, "7": 0.3, "8": 0.6, "9": 1.0, "10": 0.3,
+        "11": 0.2, "12": 0.95
+      },
+      "planetWeights": {
+        "Sun": 0.5, "Moon": 0.5, "Mars": 0.3, "Mercury": 0.3,
+        "Jupiter": 1.0, "Venus": 0.5, "Saturn": 0.7, "Rahu": 0.3, "Ketu": 0.95
+      }
+    }
+  },
+  "dignityScores": {
+    "exalted": 1.0,
+    "own_sign": 0.8,
+    "friendly": 0.6,
+    "neutral": 0.4,
+    "enemy": 0.2,
+    "debilitated": 0.0
+  },
+  "retrogradeModifier": 0.8,
+  "baseScore": 5.0,
+  "minScore": 0.0,
+  "maxScore": 10.0
+}
