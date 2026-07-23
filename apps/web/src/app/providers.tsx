@@ -2,6 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { API_BASE } from '../lib/api';
 
 // Query Client setup
 const queryClient = new QueryClient({
@@ -34,7 +35,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     if (savedToken) {
       setToken(savedToken);
       // Fetch user profile
-      fetch('http://localhost:8000/api/auth/me', {
+      fetch(`${API_BASE}/api/auth/me`, {
         headers: {
           'Authorization': `Bearer ${savedToken}`
         }
@@ -64,7 +65,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setToken(newToken);
     setIsLoading(true);
     
-    fetch('http://localhost:8000/api/auth/me', {
+    fetch(`${API_BASE}/api/auth/me`, {
       headers: {
         'Authorization': `Bearer ${newToken}`
       }

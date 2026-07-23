@@ -5,6 +5,7 @@ import { useAuth } from '../../providers';
 import { useQuery } from '@tanstack/react-query';
 import { TrendingUp, Calendar, Clock, ChevronRight, Sparkles } from 'lucide-react';
 import Link from 'next/link';
+import { API_BASE } from '../../../lib/api';
 
 export default function TimelinePage() {
   const { token } = useAuth();
@@ -14,7 +15,7 @@ export default function TimelinePage() {
   const { data: profiles } = useQuery({
     queryKey: ['birth-details'],
     queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/birth-details', {
+      const res = await fetch(`${API_BASE}/api/birth-details`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       return res.json();

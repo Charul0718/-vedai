@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { useAuth } from './providers';
+import { API_BASE } from '../lib/api';
 import Link from 'next/link';
 import { Compass, Moon, Cpu, BookOpen, Key, AlertTriangle, ArrowRight, ShieldCheck, Check } from 'lucide-react';
 import { GlassCard, GradientButton, Badge } from '@vedai/ui';
@@ -26,7 +27,7 @@ export default function LandingPage() {
       : { email, password };
 
     try {
-      const res = await fetch(`http://localhost:8000${endpoint}`, {
+      const res = await fetch(`${API_BASE}${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)

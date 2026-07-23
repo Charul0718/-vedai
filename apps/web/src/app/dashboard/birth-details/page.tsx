@@ -8,6 +8,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { MapPin, Calendar, Clock, Globe, Plus, AlertCircle, CheckCircle2 } from 'lucide-react';
 import { GlassCard, GradientButton, Badge, Spinner } from '@vedai/ui';
+import { API_BASE } from '../../../lib/api';
 
 // Form validation schema using Zod
 const birthDetailsSchema = z.object({
@@ -32,7 +33,7 @@ export default function BirthDetailsPage() {
   const { data: profiles, isLoading: loadingProfiles } = useQuery({
     queryKey: ['birth-details'],
     queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/birth-details', {
+      const res = await fetch(`${API_BASE}/api/birth-details`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       if (!res.ok) throw new Error('Failed to load profiles');
@@ -68,7 +69,7 @@ export default function BirthDetailsPage() {
   // Submit Mutation
   const createProfileMutation = useMutation({
     mutationFn: async (payload: BirthDetailsFormData) => {
-      const res = await fetch('http://localhost:8000/api/birth-details', {
+      const res = await fetch(`${API_BASE}/api/birth-details`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -4,6 +4,7 @@ import React from 'react';
 import { useAuth } from '../providers';
 import { useQuery } from '@tanstack/react-query';
 import Link from 'next/link';
+import { API_BASE } from '../../lib/api';
 import { UserPlus, FileText, MessageSquare, ShieldAlert, Sparkles, Compass, TrendingUp, Calendar, Clock, MapPin } from 'lucide-react';
 
 export default function DashboardOverview() {
@@ -13,7 +14,7 @@ export default function DashboardOverview() {
   const { data: profiles, isLoading: loadingProfiles } = useQuery({
     queryKey: ['birth-details'],
     queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/birth-details', {
+      const res = await fetch(`${API_BASE}/api/birth-details`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       if (!res.ok) throw new Error('Failed to load profiles');
@@ -28,7 +29,7 @@ export default function DashboardOverview() {
   const { data: chart, isLoading: loadingChart } = useQuery({
     queryKey: ['chart', activeProfile?.id],
     queryFn: async () => {
-      const res = await fetch(`http://localhost:8000/api/birth-details/${activeProfile.id}/chart`, {
+      const res = await fetch(`${API_BASE}/api/birth-details/${activeProfile.id}/chart`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       if (!res.ok) throw new Error('Failed to load chart');

@@ -5,6 +5,7 @@ import { useAuth } from '../../providers';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { FileText, Download, Sparkles, Cpu, BookOpen, Scroll, ShieldAlert } from 'lucide-react';
 import Link from 'next/link';
+import { API_BASE } from '../../../lib/api';
 
 export default function ReportPage() {
   const { token } = useAuth();
@@ -16,7 +17,7 @@ export default function ReportPage() {
   const { data: profiles } = useQuery({
     queryKey: ['birth-details'],
     queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/birth-details', {
+      const res = await fetch(`${API_BASE}/api/birth-details`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       return res.json();
@@ -30,7 +31,7 @@ export default function ReportPage() {
   const { data: reports, isLoading: loadingReports } = useQuery({
     queryKey: ['reports'],
     queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/reports', {
+      const res = await fetch(`${API_BASE}/api/reports`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       if (!res.ok) throw new Error('Failed to load reports');
@@ -43,7 +44,7 @@ export default function ReportPage() {
   const generateReportMutation = useMutation({
     mutationFn: async () => {
       if (!activeProfile) throw new Error('No birth profile configured');
-      const res = await fetch('http://localhost:8000/api/reports', {
+      const res = await fetch(`${API_BASE}/api/reports`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -69,7 +70,7 @@ export default function ReportPage() {
   const { data: explainability, isLoading: loadingExplainability } = useQuery({
     queryKey: ['explainability', activeProfile?.id],
     queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/explainability', {
+      const res = await fetch(`${API_BASE}/api/explainability`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -193,7 +194,7 @@ export default function ReportPage() {
                 </div>
                 {selectedReport.pdf_url && (
                   <a
-                    href={`http://localhost:8000${selectedReport.pdf_url}`}
+                    href={`${API_BASE}${selectedReport.pdf_url}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
